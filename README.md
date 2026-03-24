@@ -1,75 +1,49 @@
-# Nuxt Minimal Starter
+# DarkMatter
 
-Look at the [Nuxt documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+DarkMatter — это современное веб-приложение для мужских парикмахерских (барбершопов). Проект представляет собой платформу для отображения услуг, где стоимость зависит от уровня мастера (от обычного барбера до старшего или эксперта). В приложении также представлена информация о команде.
 
-## Setup
+Проект разработан на базе фреймворка Nuxt 4 и использует современные инструменты для фронтенд-разработки.
 
-Make sure to install dependencies:
+## Особенности проекта
+- Удобный и современный адаптивный интерфейс.
+- Динамически обновляемый прайс-лист в зависимости от категории мастера (Стрижка, оформление бороды, камуфлирование и прочее).
+- Карточки сотрудников команды.
+- Стилизация с помощью Tailwind CSS.
+
+## Требования
+Для корректной установки и работы проекта вам потребуется Node.js актуальной версии. Рекомендуется использовать пакетный менеджер npm.
+
+## Установка и запуск
+
+1. Склонируйте репозиторий и перейдите в папку проекта.
+2. Установите все зависимости приложения:
 
 ```bash
-# npm
 npm install
-
-# pnpm
-pnpm install
-
-# yarn
-yarn install
-
-# bun
-bun install
 ```
 
-## Development Server
-
-Start the development server on `http://localhost:3000`:
+3. Запустите локальный сервер для разработки:
 
 ```bash
-# npm
 npm run dev
-
-# pnpm
-pnpm dev
-
-# yarn
-yarn dev
-
-# bun
-bun run dev
 ```
 
-## Production
+Приложение будет автоматически перезагружаться при изменении кода и будет доступно в браузере по адресу:
+`http://localhost:3000`
 
-Build the application for production:
+## Сборка для продакшена (релиза)
+
+Чтобы собрать готовое оптимизированное приложение для размещения на сервере (хостинге), выполните команду:
 
 ```bash
-# npm
 npm run build
-
-# pnpm
-pnpm build
-
-# yarn
-yarn build
-
-# bun
-bun run build
 ```
 
-Locally preview production build:
+После завершения процесса сборки вы можете проверить и запустить готовую версию локально перед отправкой:
 
 ```bash
-# npm
 npm run preview
-
-# pnpm
-pnpm preview
-
-# yarn
-yarn preview
-
-# bun
-bun run preview
 ```
 
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
+## Дополнительная информация
+Дополнительная информация о развертывании и официальная документация фреймворка доступна на сайте [Nuxt](https://nuxt.com/docs/getting-started/deployment).
