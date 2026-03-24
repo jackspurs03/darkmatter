@@ -2,8 +2,14 @@
 import teamData from '~/data/team.json'
 import servicesData from '~/data/services.json'
 
+const title = 'ТЁМНАЯ МАТЕРИЯ | Барбершоп №1'
+const description = 'Тёмная материя — премиальный барбершоп в Донецке, Макеевке и Мариуполе. Мужские стрижки, оформление бороды, бритье опасной бритвой. Профессиональные мастера, топовая косметика и уникальная атмосфера.'
+const siteUrl = 'https://darkmatter.com'
+
 useHead({
-  title: 'DARK MATTER | Барбершоп',
+  titleTemplate: (titleChunk) => {
+    return titleChunk ? `${titleChunk} - ТЁМНАЯ МАТЕРИЯ` : 'ТЁМНАЯ МАТЕРИЯ | Барбершоп'
+  },
   htmlAttrs: {
     lang: 'ru',
     class: 'dark'
@@ -12,9 +18,33 @@ useHead({
     class: 'bg-background text-on-surface font-body selection:bg-primary/30 selection:text-primary-fixed break-words'
   },
   link: [
+    { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
+    { rel: 'canonical', href: siteUrl },
     { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css2?family=Noto+Serif:wght@400;700;800&family=Manrope:wght@300;400;500;600;700&display=swap' },
     { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap' }
+  ],
+  meta: [
+    { name: 'theme-color', content: '#000000' }
   ]
+})
+
+useSeoMeta({
+  title: title,
+  description: description,
+  ogTitle: title,
+  ogDescription: description,
+  ogImage: `${siteUrl}/hero-background.png`,
+  ogUrl: siteUrl,
+  ogType: 'website',
+  ogLocale: 'ru_RU',
+  ogSiteName: 'ТЁМНАЯ МАТЕРИЯ Barbershop',
+  twitterCard: 'summary_large_image',
+  twitterTitle: title,
+  twitterDescription: description,
+  twitterImage: `${siteUrl}/hero-background.png`,
+  author: 'DARK MATTER',
+  robots: 'index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1',
+  formatDetection: 'telephone=no'
 })
 </script>
 
