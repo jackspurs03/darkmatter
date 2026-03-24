@@ -1,0 +1,58 @@
+[
+  {
+    "title": "Стрижка ножницами",
+    "subtitle": "Scissor Haircut",
+    "priceBarber": "1500 ₽",
+    "priceSenior": "1800 ₽",
+    "priceExpert": "2200 ₽"
+  },
+  {
+    "title": "Стрижка ножницами + борода",
+    "subtitle": "Scissor Cut + Beard",
+    "priceBarber": "2200 ₽",
+    "priceSenior": "2800 ₽",
+    "priceExpert": "3000 ₽"
+  },
+  {
+    "title": "Стрижка под машинку",
+    "subtitle": "Clipper Cut",
+    "priceBarber": "900 ₽",
+    "priceSenior": "1000 ₽",
+    "priceExpert": "1200 ₽"
+  },
+  {
+    "title": "Стрижка под машинку + борода",
+    "subtitle": "Clipper Cut + Beard",
+    "priceBarber": "1600 ₽",
+    "priceSenior": "2000 ₽",
+    "priceExpert": "2300 ₽"
+  },
+  {
+    "title": "Оформление бороды",
+    "subtitle": "Beard Grooming",
+    "priceBarber": "700 ₽",
+    "priceSenior": "1000 ₽",
+    "priceExpert": "1100 ₽"
+  },
+  {
+    "title": "Камуфлирование бороды",
+    "subtitle": "Beard Camouflage",
+    "priceBarber": "1200 ₽",
+    "priceSenior": "1200 ₽",
+    "priceExpert": "1200 ₽"
+  },
+  {
+    "title": "Камуфлирование головы",
+    "subtitle": "Head Camouflage",
+    "priceBarber": "1200 ₽",
+    "priceSenior": "1200 ₽",
+    "priceExpert": "1200 ₽"
+  },
+  {
+    "title": "Окантовка",
+    "subtitle": "Line Up",
+    "priceBarber": "500 ₽",
+    "priceSenior": "500 ₽",
+    "priceExpert": "500 ₽"
+  }
+]

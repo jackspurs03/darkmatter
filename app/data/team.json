@@ -1,0 +1,42 @@
+[
+  {
+    "name": "Сергей",
+    "role": "Эксперт барбер",
+    "image": "/sergey.webp"
+  },
+  {
+    "name": "Никита",
+    "role": "Эксперт барбер",
+    "image": "/nikita.webp"
+  },
+  {
+    "name": "Елена",
+    "role": "Эксперт барбер",
+    "image": "/elena.webp"
+  },
+  {
+    "name": "Константин",
+    "role": "Эксперт барбер",
+    "image": "/konstantin.webp"
+  },
+  {
+    "name": "Олег",
+    "role": "Старший барбер",
+    "image": "/oleg.webp"
+  },
+  {
+    "name": "Ярослав",
+    "role": "Старший барбер",
+    "image": "/jaroslav.webp"
+  },
+  {
+    "name": "Елизавета",
+    "role": "Старший барбер",
+    "image": "/elizaveta.webp"
+  },
+  {
+    "name": "Ирина",
+    "role": "Барбер",
+    "image": "/irina.webp"
+  }
+]
