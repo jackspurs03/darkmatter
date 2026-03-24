@@ -2,6 +2,12 @@
 import teamData from '~/data/team.json'
 import servicesData from '~/data/services.json'
 
+const config = useRuntimeConfig()
+const getAssetUrl = (path: string) => {
+  const base = config.app.baseURL.replace(/\/$/, '')
+  return `${base}${path}`
+}
+
 const title = 'ТЁМНАЯ МАТЕРИЯ | Барбершоп №1'
 const description = 'Тёмная материя — премиальный барбершоп в Донецке, Макеевке и Мариуполе. Мужские стрижки, оформление бороды, бритье опасной бритвой. Профессиональные мастера, топовая косметика и уникальная атмосфера.'
 const siteUrl = 'https://darkmatter.com'
@@ -281,7 +287,7 @@ useSeoMeta({
                 <img 
                   :alt="member.name" 
                   class="w-full h-full object-cover" 
-                  :src="member.image"
+                  :src="getAssetUrl(member.image)"
                 />
               </div>
               <h3 class="font-headline text-xl text-white font-bold mb-1 uppercase tracking-tight">
