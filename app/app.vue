@@ -25,9 +25,7 @@ useHead({
   },
   link: [
     { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
-    { rel: 'canonical', href: siteUrl },
-    { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css2?family=Noto+Serif:wght@400;700;800&family=Manrope:wght@300;400;500;600;700&display=swap' },
-    { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap' }
+    { rel: 'canonical', href: siteUrl }
   ],
   meta: [
     { name: 'theme-color', content: '#000000' }
@@ -76,7 +74,7 @@ useSeoMeta({
         <div class="flex-none lg:flex-1 flex items-center justify-end gap-3 md:gap-6">
           <a class="hidden sm:block text-primary font-body text-sm md:text-base hover:text-primary/80 transition-colors whitespace-nowrap" href="tel:+79494673818">
             <span class="hidden md:inline">+7 (949) 467-38-18</span>
-            <span class="md:hidden material-symbols-outlined align-middle text-lg">call</span>
+            <Icon name="material-symbols:call-outline" class="md:hidden align-middle text-lg" />
           </a>
           <a href="https://n1133019.yclients.com/select-city?o=" class="bg-primary text-primary-container px-4 md:px-6 py-2 md:py-2.5 font-label uppercase tracking-wider text-[9px] md:text-[10px] font-bold transition-all duration-200 hover:brightness-110 active:scale-95 whitespace-nowrap inline-flex items-center justify-center">
             Записаться
@@ -118,7 +116,7 @@ useSeoMeta({
         
         <div class="absolute bottom-12 w-full flex justify-center">
           <div class="animate-bounce">
-            <span class="material-symbols-outlined text-primary/50">expand_more</span>
+            <Icon name="material-symbols:expand-more" class="text-primary/50 text-3xl" />
           </div>
         </div>
       </section>
@@ -257,7 +255,7 @@ useSeoMeta({
           
           <div class="mt-8 p-6 bg-surface-container border border-outline-variant/20">
             <div class="flex items-start gap-4">
-              <span class="material-symbols-outlined text-primary">info</span>
+              <Icon name="material-symbols:info-outline" class="text-primary text-2xl" />
               <div>
                 <span class="text-primary font-bold uppercase tracking-widest text-[10px] block mb-1">
                   Дополнительная информация
@@ -314,15 +312,15 @@ useSeoMeta({
                 </span>
                 <ul class="space-y-6">
                   <li class="flex items-center gap-4 group">
-                    <span class="material-symbols-outlined text-primary text-xl">location_on</span>
+                    <Icon name="material-symbols:location-on-outline" class="text-primary text-xl" />
                     <span class="text-on-surface text-base font-light">г. Донецк, ул. Челюскинцев, 184б</span>
                   </li>
                   <li class="flex items-center gap-4 group">
-                    <span class="material-symbols-outlined text-primary text-xl">location_on</span>
+                    <Icon name="material-symbols:location-on-outline" class="text-primary text-xl" />
                     <span class="text-on-surface text-base font-light">г. Макеевка, ул. Ленина, 46/28</span>
                   </li>
                   <li class="flex items-center gap-4 group">
-                    <span class="material-symbols-outlined text-primary text-xl">location_on</span>
+                    <Icon name="material-symbols:location-on-outline" class="text-primary text-xl" />
                     <span class="text-on-surface text-base font-light">г. Мариуполь, ул. Нильсена, 39</span>
                   </li>
                 </ul>
@@ -349,10 +347,12 @@ useSeoMeta({
             <div class="lg:col-span-7">
               <div class="relative h-[350px] md:h-[450px] border border-outline-variant/20 overflow-hidden">
                 <iframe 
+                  title="Карта расположения барбершопов ТЕМНАЯ МАТЕРИЯ"
                   src="https://yandex.ru/map-widget/v1/?um=constructor%3A2315739eb754d7ac36f9e0ff66a1b567642447c16ce78fa82f850378b75af16c&amp;source=constructor" 
                   width="100%" 
                   height="400" 
-                  frameborder="0">
+                  frameborder="0"
+                  loading="lazy">
                 </iframe>
               </div>
             </div>
