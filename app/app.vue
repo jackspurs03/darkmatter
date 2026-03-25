@@ -91,7 +91,7 @@ useSeoMeta({
       <section class="relative min-h-screen flex items-center pt-24 overflow-hidden bg-background">
         <div class="absolute inset-0 z-0">
           <div class="absolute inset-0 bg-black/70 z-10 backdrop-blur-[2px]"></div>
-          <img alt="Atmospheric Dark Matter Background" class="w-full h-full object-cover scale-105" src="/hero-background.png"/>
+          <img alt="Atmospheric Dark Matter Background" class="w-full h-full object-cover scale-105" src="/hero-background.webp"/>
         </div>
         
         <div class="relative z-20 px-8 md:px-16 w-full max-w-7xl mx-auto text-center flex flex-col items-center">
